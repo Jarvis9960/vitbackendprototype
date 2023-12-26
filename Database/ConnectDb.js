@@ -2,7 +2,7 @@ import mongoose from "mongoose";
 
 const connectDb = async () => {
   try {
-    return mongoose.connect("mongodb+srv://vithrms:vithrms@cluster0.el3qfoz.mongodb.net/?retryWrites=true&w=majority");
+    return mongoose.connect("mongodb+srv://anshulgupta:anshulgupta@cluster0.g14exjh.mongodb.net/?retryWrites=true&w=majority");
   } catch (error) {
     return error;
   }
